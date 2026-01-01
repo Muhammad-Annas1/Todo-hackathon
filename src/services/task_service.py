@@ -135,7 +135,7 @@ class TaskManager:
         
         # If the task was marked as complete and is recurring, create the next occurrence
         if task.completed and task.is_recurring():
-            from src.services.recurrence import create_next_occurrence
+            from .recurrence import create_next_occurrence
             next_task = create_next_occurrence(task)
             if next_task:
                 # Set the next_id for the new task to be the current max ID + 1

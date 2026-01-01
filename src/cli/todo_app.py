@@ -89,7 +89,7 @@ class TodoApp:
         # Prompt for recurrence
         recurrence = input("Enter recurrence pattern (optional, e.g., 'daily', 'weekly', 'monthly', 'every 3 days'): ").strip()
         if recurrence:
-            from src.services.recurrence import validate_recurrence_pattern
+            from services.recurrence import validate_recurrence_pattern
             if not validate_recurrence_pattern(recurrence):
                 print(f"Invalid recurrence pattern: {recurrence}")
                 return
@@ -194,7 +194,7 @@ class TodoApp:
             if recurrence_input.lower() in ['none', 'null', 'clear']:
                 new_recurrence = None
             else:
-                from src.services.recurrence import validate_recurrence_pattern
+                from services.recurrence import validate_recurrence_pattern
                 if not validate_recurrence_pattern(recurrence_input):
                     print(f"Invalid recurrence pattern: {recurrence_input}")
                     return
