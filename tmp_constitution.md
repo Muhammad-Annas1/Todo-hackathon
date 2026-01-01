@@ -1,17 +1,4 @@
-<!--
-Sync Impact Report:
-- Version change: N/A → 1.0.0
-- List of modified principles: N/A (new constitution)
-- Added sections: All principles and sections as specified
-- Removed sections: N/A
-- Templates requiring updates:
-  - .specify/templates/plan-template.md ✅ reviewed - no changes needed
-  - .specify/templates/spec-template.md ✅ reviewed - no changes needed
-  - .specify/templates/tasks-template.md ✅ reviewed - no changes needed
-  - .qwen/commands/*.toml ✅ reviewed - no changes needed
-- Follow-up TODOs: None
--->
-# Toda (In-Memory Python Console Todo App) Constitution
+# Todo (In-Memory Python Console Todo App) Constitution
 
 ## Core Principles
 
